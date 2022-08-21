@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <div className="bg-[url('./images/background.svg')] bg-contain min-h-screen  bg-no-repeat font-ProductSans">
+        <div className="bg-[url('./images/background.svg')] bg-cover min-h-screen  bg-no-repeat font-ProductSans">
           <Routes>
             <Route path="/" element={<CompletePurchase />} />
             <Route path="/billingInfo" element={<BillingInfo />} />
